@@ -40,7 +40,3 @@ document.addEventListener('DOMContentLoaded', function() {
         content.style.display = 'block';
     }, 4000); // 10000 milliseconds = 10 seconds
 });
-
-document.querySelector('.inner-circle').addEventListener('click', function() {
-    alert('Reveal action here!');
-});
