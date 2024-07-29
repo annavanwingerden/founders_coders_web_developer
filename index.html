@@ -3,54 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> A.N.N.A x FAC </title>
+    <title> Anna x FAC </title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <div id="loading-screen">
         <div id="loading-text"></div>
-        <img src="images/gal.svg" alt="Loading Image" id="loading-image">
+        <img src="images/anna/dungarees.png" alt="Loading Image" id="loading-image">
         <div id="loading-bar-container">
             <div id="loading-bar"></div>
         </div>
     </div>
-    <nav class="navbar">
-        <div class="navbar-brand">
-            <a href="#">BrandName</a>
-        </div>
-        <ul class="navbar-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+
+    <div class = "container" id="home">
+        <h1 class="logo"> 
+            <img src="images/anna/dungarees.png" alt="Logo">
+        </h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#learning">Learning</a></li>
+        <li><a href="#fac">Founders and Coders</a></li>
+        
+      </ul>
     </nav>
-    <div id="content">
-        <h1> WELCOME</h1>
-        <p> Who am I?
-            I'm a Product Analyst working in startups. 
-            
-            
-            
-            Where am I at? 
+</div>
 
-            
-            Why Founders and Coders
-
-            How will I approach the course
-
-
-
-            Where am I at? 
-
-            What do I believe in? 
-            "Quality is not an act, it is a habit." Aristotle
-
-        </p>
+<div class = "header-banner">
+    <div class = "header-banner-content">
+      <div class = "banner-line"></div>
+      <h1 class = "banner-title">
+        <span>Anna van Wingerden</span>
+        <span>Product Analyst & Future Software Developer</span>
+      </h1>
     </div>
+    <img src = "images/longboarder.gif" alt = "about image">
+  </div>
+
+  <div class = "about-wrapper" id = "about">
+    <div class = "about-wrapper-left">
+        <img src = "images/anna/programmer.png" alt = "about image">
     </div>
+
+    <div class = "about-wrapper-right">
+      <h2>About Me</h2>
+      <p class = "text-light">I work in early-stage startups, and have been very lucky to work closely with developers. </p>
+      <p class= "text-light">In my last role, I was responsible for QA'ing all product releases.
+        I learnt how to speak the language of devs - and how clear feedback could prevent bugs that would affect the user experience.</p>
+        
+        <p> In my current role, I've built a couple of streamlit web apps in python. 
+        
+        My first app was a quick protoype which was used in a demo, whilst my second was an internal
+        tool which saves my team time on a weekly basis.</p>
+    </div>
+</div>
+    
+    <div class = "about-sec-underline"></div>
+
+    <div class = "about-wrapper-2" id = "software">
+        <div class = "about-wrapper-2-left">
+            <h2>Why Software Development? </h2>
+            <p class = "text-light">I’m constantly impressed by how the the people I work with create products from lines of code. </p>
+                
+            <p class = "text-light"> I’d love to be able to do that and recently I’ve learnt how to. </p>
+
+            <p class = "text-light"> I’ve tried to code in the past - but let fear get the better of me. In the last six months, I've learnt to throw all caution to the wind and just build stuff. </p>
+          </div>
+
+        <div class = "about-wrapper-2-right">
+            <img src = "images/anna/computer.png" alt = "about image">
+        </div>
+    </div>
+    
+        <div class = "about-sec-underline"></div>
+
+        <div class = "title" id = "learning">
+            <h2 class = "title-text">How I've Learnt HTML, CSS & Javascript</h2>
+        </div>
+
+        <div class = "about-wrapper-3">
+            
+            <!-- single item -->
+            <div class = "about-item">
+                <h2 class = "about-title">Portfolio</h2>
+                <p class = "text-light">I followed a tutorial on how to use next.js - and then built a portfolio website.</p>
+                <a href = "https://anna-portfolio-theta.vercel.app/" class = "about-btn">see it</a>
+            </div>
+            <!-- end of single item -->
+                <!-- single item -->
+            <div class = "about-item">
+                <h2 class = "about-title">Weather App</h2>
+                <p class = "text-light">I followed a tutorial on how to build a weather app. I plan to adapt this for my skating crew so we know the weather of our fav spot in Hyde Park.</p>
+                <a href = "https://js-weather-app-theta.vercel.app/" class = "about-btn">see it</a>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class = "about-item">
+                <h2 class = "about-title">Quiz</h2>
+                <p class = "text-light">I built a simple quiz game as part of CFG’s Intro to Javascript, with a partner.</p>
+                <a href = "https://cfg-js.vercel.app/" class = "about-btn">see it</a>
+            </div>
+            <!-- end of single item -->
+        </div>
+        
+        <div class = "fac" id = "fac">
+            <div class = "fac-left">
+                <img src = "images/facweb.png" alt = "about image">
+            </div>
+
+            <div class = "fac-right">
+            <h2>Why Founders and Coders</h2>
+            <p class = "text-light">I believe that joining your program will accelerate my learning process for the following reasons:</p>
+                <li>I know from experience that I learn best with others I can brainstorm with. I've loved being part of the Founders and Coders discord, and seeing what other people are learning.  My co-learners have helped me to explore new tools - for example, encouraging my exploration with APIs.</li>                
+                <li>Slightly harder deadlines will benefit me. I’ve started many projects, but the number I’ve finished is significantly lower. </li>
+                <li>From reviews and researching the career paths of Founders and Coders alumni - I know that it's a good programme and that it will help me to move into a more technical role. </li>
+            </div>
+        </div>
+
+
+
+</div>
     <script src="script.js"></script>
 </body>
 </html>

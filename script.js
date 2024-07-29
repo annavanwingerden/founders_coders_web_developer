@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var content = document.getElementById('content');
 
     // Text to be displayed
-    var text = "A. N. N. A";
+    var text = "Anna van Wingerden";
     var loadingText = document.getElementById('loading-text');
     var index = 0;
 
@@ -38,5 +38,5 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
         loadingScreen.style.display = 'none';
         content.style.display = 'block';
-    }, 4000); // 10000 milliseconds = 10 seconds
+    }, 5100); // 10000 milliseconds = 10 seconds
 });
