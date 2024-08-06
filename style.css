@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Yrsa', serif;
     background-color: #f9f5fa;
+    font-size: 16px;
 }
 
 #loading-screen {
@@ -123,6 +124,10 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
 }
 
 nav li {
@@ -355,4 +360,59 @@ p, h3 {
     padding: 10px;
     list-style-type: decimal;
     color: #497e8c;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .logo img {
+        height: 100px;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    nav li {
+        margin-left: 50px;
+    }
+
+    .header-banner {
+        height: 100vh;
+    }
+
+    .header-banner-content {
+        padding: 3rem 0;
+    }
+
+    .banner-title span:last-of-type {
+        font-size: 1.6rem;
+    }
+
+    .banner-title span:first-of-type {
+        font-size: 3.2rem;
+    }
+
+    .about-wrapper,
+    .about-wrapper-2,
+    .about-wrapper-3,
+    .fac {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-wrapper img,
+    .about-wrapper-2 img,
+    .fac img {
+        width: 45%;
+    }
+
+    .about-wrapper > div,
+    .about-wrapper-2 > div,
+    .fac > div {
+        margin: 20px;
+        text-align: left;
+    }
 }
