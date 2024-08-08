@@ -369,6 +369,7 @@ p, h3 {
 
     .logo img {
         height: 100px;
+        width: auto;
     }
 
     nav ul {
@@ -407,6 +408,7 @@ p, h3 {
     .about-wrapper-2 img,
     .fac img {
         width: 45%;
+        height: auto;
     }
 
     .about-wrapper > div,
