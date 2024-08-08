@@ -337,7 +337,6 @@ p, h3 {
     left: 0;
     height: 100px;
     width: auto;
-    max-width: 1000px;
 }
 
 .fac > div {
@@ -401,7 +400,7 @@ p, h3 {
     .about-wrapper-3,
     .fac {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .about-wrapper img,
@@ -409,12 +408,15 @@ p, h3 {
     .fac img {
         width: 45%;
         height: auto;
+        max-width: 100%;
+        align-self: flex-end;
+        padding-left: 20px;
     }
 
     .about-wrapper > div,
     .about-wrapper-2 > div,
     .fac > div {
         margin: 20px;
-        text-align: left;
+        text-align: center;
     }
 }
